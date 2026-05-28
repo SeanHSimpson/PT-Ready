@@ -12,8 +12,7 @@ This repository exists solely for the distribution of binaries and tester resour
 
 ## Download
 
-The latest APK is available below. 
-
+The latest APK is available at https://seanhsimpson.github.io/PT-Ready/test/
 ## Tester Landing Page
 
 For early access testers: [https://seanhsimpson.github.io/PT-Ready/test/](https://seanhsimpson.github.io/PT-Ready/test/)
