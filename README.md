@@ -12,7 +12,7 @@ This repository exists solely for the distribution of binaries and tester resour
 
 ## Download
 
-The latest APK is available to approved testers via the private distribution channels.
+The latest APK is available below. 
 
 ## Tester Landing Page
 
