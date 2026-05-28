@@ -1,0 +1,7 @@
+# Ignore built APKs/AABs in this folder (we attach them to GitHub Releases instead)
+*.apk
+*.aab
+
+# OS files
+.DS_Store
+Thumbs.db

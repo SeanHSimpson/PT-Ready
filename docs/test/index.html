@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PT Ready – Early Access (v2.5.0)</title>
+  <style>
+    :root {
+      --bg: #0a0d12;
+      --surface: #14181f;
+      --accent: #a07840;
+      --accent-hover: #b38a52;
+      --text: #e6e9ee;
+      --muted: #8a95a6;
+      --border: #222830;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+    .container {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 40px 20px;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 48px;
+    }
+    .badge {
+      display: inline-block;
+      background: #2a2115;
+      color: #e8c99a;
+      font-size: 13px;
+      padding: 4px 12px;
+      border-radius: 9999px;
+      margin-bottom: 12px;
+      font-weight: 500;
+    }
+    h1 {
+      font-size: 32px;
+      margin: 0 0 8px;
+      font-weight: 600;
+    }
+    .version {
+      color: var(--muted);
+      font-size: 15px;
+    }
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 28px;
+      margin-bottom: 24px;
+    }
+    .btn {
+      display: block;
+      background: var(--accent);
+      color: #0a0d12;
+      font-weight: 700;
+      text-decoration: none;
+      padding: 16px 24px;
+      border-radius: 10px;
+      font-size: 17px;
+      text-align: center;
+      margin: 12px 0 4px;
+      transition: all 0.2s ease;
+    }
+    .btn:hover {
+      background: var(--accent-hover);
+      transform: translateY(-1px);
+    }
+    .section-title {
+      font-size: 14px;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin: 0 0 12px;
+    }
+    ul {
+      padding-left: 20px;
+      margin: 8px 0 16px;
+    }
+    li { margin: 6px 0; }
+    .note {
+      background: #1f252f;
+      border-left: 4px solid var(--accent);
+      padding: 12px 16px;
+      font-size: 14px;
+      color: #c5cdd8;
+      border-radius: 6px;
+    }
+    footer {
+      text-align: center;
+      font-size: 13px;
+      color: var(--muted);
+      margin-top: 40px;
+    }
+    a { color: var(--accent); }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="badge">Early Access • Test Build</div>
+      <h1>PT Ready</h1>
+      <div class="version">Version 2.5.0 — May 2026</div>
+    </header>
+
+    <div class="card">
+      <p><strong>Thanks for helping test PT Ready.</strong></p>
+      <p>This is an early test build for a small group of interested users and Airmen. Your feedback is very valuable right now.</p>
+
+      <a href="https://github.com/SeanHSimpson/USAF-PT-Ready/releases" class="btn" target="_blank">
+        Download PT Ready 2.5.0 APK
+      </a>
+      <p style="text-align: center; font-size: 13px; margin-top: 8px;">
+        Also available in the shared Google Drive folder
+      </p>
+      <p style="text-align:center; font-size:13px; color:var(--muted); margin-top:4px;">
+        Android only • ~15–20 MB
+      </p>
+    </div>
+
+    <div class="card">
+      <div class="section-title">Installation Instructions</div>
+      <ol>
+        <li>Download the APK from the link above (or from the shared Google Drive folder).</li>
+        <li>On your Android device, go to <strong>Settings → Security</strong> (or search for "Install unknown apps").</li>
+        <li>Allow your browser to install apps from unknown sources.</li>
+        <li>Open the downloaded APK and install it.</li>
+      </ol>
+      <div class="note">
+        This is normal for sideloading test builds. You can disable the setting again after installing.
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="section-title">What's New in 2.5.0</div>
+      <ul>
+        <li>Major redesign of the UFPM Member Profile screen (much more compact and professional)</li>
+        <li>Color-coded score chip + workflow cards for Test and AI Plan</li>
+        <li>New inline history mini-chart and summary stats</li>
+        <li>Improved AI training plans (including pregnancy/postpartum mode)</li>
+        <li>Broader UFPM roster and navigation improvements</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <div class="section-title">Feedback</div>
+      <p>Please send any issues, confusing parts, or suggestions to:</p>
+      <p style="font-size:18px; font-weight:600; margin:8px 0;">
+        <a href="mailto:dev@ptreadiness.app">dev@ptreadiness.app</a>
+      </p>
+      <p>The more specific you can be (device model, what you were doing, screenshots), the better.</p>
+    </div>
+
+    <footer>
+      <p><strong>Proprietary software</strong> — © 2026 BitVoyage LLC. All Rights Reserved.<br>Not affiliated with the U.S. Air Force.</p>
+      <p style="margin-top:8px;">
+        <a href="https://ptreadiness.app/privacy.html" target="_blank">Privacy Policy</a> • 
+        <a href="https://ptreadiness.app/terms.html" target="_blank">Terms</a>
+      </p>
+    </footer>
+  </div>
+</body>
+</html>

@@ -1,0 +1,57 @@
+PT Ready - Super Simple Way to Create the New Repo on GitHub
+
+You have a folder called "pt-ready-distribution" on your computer.
+This folder has everything ready.
+
+=== EASIEST METHOD (Recommended) ===
+
+Use GitHub Desktop (free and easy):
+
+1. Download GitHub Desktop if you don't have it:
+   https://desktop.github.com/
+
+2. Open GitHub Desktop.
+
+3. Click "Create a New Repository on your local machine"
+
+4. Set these values:
+   - Name: PT-Ready   (or USAF-PT-Ready)
+   - Local path: Choose a folder on your computer
+   - Leave everything else default
+   - Click "Create Repository"
+
+5. Now drag and drop all the files from your "pt-ready-distribution" folder 
+   into the new folder that GitHub Desktop just created.
+
+6. In GitHub Desktop, you should see the files listed as changes.
+   - Write a message like: "Initial commit - v2.5.0 Early Access"
+   - Click "Commit to main"
+
+7. Click "Publish repository" (top right)
+   - Make sure "Keep this code private" is checked
+   - Click Publish
+
+8. Now go to the new repo on GitHub (it will open in your browser).
+
+9. Go to Settings → Pages:
+   - Source: main
+   - Folder: /docs
+   - Click Save
+
+10. Your landing page will appear at:
+    https://seanhsimpson.github.io/PT-Ready/test/
+
+That's it. Much cleaner than uploading files manually through the website.
+
+=== If you want to do it directly on the GitHub website ===
+
+It's possible but annoying because of the subfolder (docs/test):
+
+1. Go to https://github.com/new
+2. Create a new repo called "PT-Ready" (private)
+3. After creating it, click "uploading an existing file"
+4. Drag the files from pt-ready-distribution one by one or in small groups.
+   (You have to manually create the "docs" folder then "test" folder)
+5. This is tedious. Strongly recommend using GitHub Desktop instead.
+
+Let me know if you want the GitHub Desktop route explained even more simply.

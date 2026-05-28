@@ -1,0 +1,29 @@
+**PT Ready v2.5.0 – Early Access Test Release**
+
+This is the first release being shared with external testers.
+
+### Key Improvements in This Version
+- Complete redesign of the UFPM Member Profile view (much more compact and professional)
+- Prominent color-coded score display in the header
+- New workflow cards for "Test" and "AI Plan" with relevant member context
+- Inline history mini-chart + summary statistics
+- Enhanced AI training plan generation, including pregnancy/postpartum mode
+- General improvements to roster management and navigation
+
+### Download
+The APK is available through the private tester channels (Google Drive link provided separately).
+
+### Important
+- This is a **test build** intended for a small group of early testers.
+- Android only at this time.
+- All data is stored locally on your device.
+- **This software is proprietary** and owned by BitVoyage LLC. It is not open source.
+
+### Feedback
+Please send any bugs, suggestions, or general feedback to: **dev@ptreadiness.app**
+
+Thank you for helping test PT Ready.
+
+---
+
+© 2026 BitVoyage LLC. All Rights Reserved.
